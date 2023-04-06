@@ -1,0 +1,52 @@
+table {
+  max-width: 100vw;
+  width: auto;
+  flex: 1;
+  display: grid;
+  border-collapse: collapse;
+  grid-template-columns: repeat(8, 1fr) 50px;
+}
+
+thead,
+tbody,
+tr {
+  display: contents;
+}
+
+th,
+td {
+  padding: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+th {
+  position: sticky;
+  top: 0;
+  background: #97a0e2;
+  text-align: left;
+  font-weight: normal;
+  font-size: 1.1rem;
+  color: white;
+  position: relative;
+}
+
+th:last-child {
+  border: 0;
+}
+
+td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #3b3b3b;
+}
+
+tr:nth-child(even) td {
+  background: #f8f6ff;
+}
+
+.view {
+  display: flex;
+  gap: 6px;
+}

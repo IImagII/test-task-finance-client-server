@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background: #f1f1f1;
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  padding: 30px 50px;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1400px;
+  overflow: hidden;
+  padding: 30px 50px;
+}
+.post {
+  padding: 40px 20px 80px 20px;
+}
